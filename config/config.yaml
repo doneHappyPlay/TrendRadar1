@@ -138,10 +138,11 @@ rss:
     - id: "anthropic-news"
       name: "Anthropic News"
       url: "https://www.anthropic.com/news/rss.xml"
+      enabled: false                  # 官方暂未提供稳定 RSS，避免 GitHub Actions 每次运行报 404
 
     - id: "google-deepmind"
       name: "Google DeepMind Blog"
-      url: "https://deepmind.google/discover/blog/rss.xml"
+      url: "https://deepmind.google/blog/rss.xml"
 
     - id: "huggingface-blog"
       name: "Hugging Face Blog"
